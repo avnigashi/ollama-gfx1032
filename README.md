@@ -21,20 +21,14 @@ To make it easier for you, a precompiled version of Ollama is available for down
 3. **Edit GPU List**:
    - Edit `gen_windows.ps1` to add support for `gfx1032` (RX 6600).
 
-4. **Set Environment Variables**:
-   ```powershell
-   $env:HIP_PATH = "C:\Program Files\AMD\ROCm\5.7\bin"
-   $env:ROCM_PATH = "C:\Program Files\AMD\ROCm\5.7\bin"
-   ```
-
-5. **Build Ollama from Source**:
+4. **Build Ollama from Source**:
    ```powershell
    cd C:\Users\username\ollama
    $env:CGO_ENABLED = "1"
    .\scripts\build_windows.ps1
    ```
 
-6. **Run the Installer**:
+5. **Run the Installer**:
    ```powershell
    Start-Process -NoNewWindow -Wait -FilePath "C:\Users\username\ollama\dist\OllamaSetup.exe"
    ```
@@ -59,14 +53,13 @@ To make it easier for you, a precompiled version of Ollama is available for down
 ## References
 
 - Main source code: [Ollama on GitHub](https://github.com/ollama/ollama)
-- Libs [ROCmLibs](https://github.com/brknsoul/ROCmLibs)
+- Additional resources: [ROCmLibs](https://github.com/brknsoul/ROCmLibs)
 
 ## Notes
 
 - **Main Source Code**: The current version is based on Ollama3.
 - **Testing and Old Versions**: For testing purposes, older versions of ROCmLibs can be accessed on Dropbox. These libraries were pulled from YellowRoseCx's ROCm fork of KoboldCPP.
-- **Removing `rocblasrt`**: If needed, manually delete the `rocblasrt.dll` file from `%ProgramFiles%\AMD\ROCm\5.7\bin\`.
 
 ### Contact
 
-For support and contributions, please refer to [ROCmLibs](https://github.com/brknsoul/ROCmLibs)
+For support and contributions, please refer to [ROCmLibs](https://github.com/brknsoul/ROCmLibs).
