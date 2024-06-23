@@ -1,10 +1,10 @@
 ### README for Ollama on AMD GPUs
 
-This guide explains how to set up and run Ollama on Windows using an AMD RX 6600 GPU. A precompiled version is available for easier installation.
+This guide explains how to set up and run Ollama on Windows using an AMD RX 6600 GPU.
 
-## Precompiled Version
+## Precompiled Version (Recommended)
 
-A precompiled version of Ollama can be downloaded and installed from [here](https://github.com/avnigashi/ollama-gfx1032/releases/download/alpha/OllamaSetup.exe.7z).
+To make it easier for you, a precompiled version of Ollama is available for download and installation from [here](https://github.com/avnigashi/ollama-gfx1032/releases/download/alpha/OllamaSetup.exe.7z).
 
 ## Summary of Steps to Compile from Source
 
@@ -59,7 +59,7 @@ A precompiled version of Ollama can be downloaded and installed from [here](http
 ## References
 
 - Main source code: [Ollama on GitHub](https://github.com/ollama/ollama)
-- Additional resources from [ROCmLibs](https://github.com/brknsoul/ROCmLibs)
+- Libs [ROCmLibs](https://github.com/brknsoul/ROCmLibs)
 
 ## Notes
 
@@ -69,4 +69,4 @@ A precompiled version of Ollama can be downloaded and installed from [here](http
 
 ### Contact
 
-For support and contributions, please refer to the [Ollama GitHub repository](https://github.com/ollama/ollama)  [ROCmLibs](https://github.com/brknsoul/ROCmLibs) 
+For support and contributions, please refer to [ROCmLibs](https://github.com/brknsoul/ROCmLibs)
